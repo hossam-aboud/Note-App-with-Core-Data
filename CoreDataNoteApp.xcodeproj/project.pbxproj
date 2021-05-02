@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FB12328263E41AB00D0AA23 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB12327263E41AB00D0AA23 /* SceneDelegate.swift */; };
+		4B3E583921FA1772001C8C76 /* ReallySimpleNotesData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4B3E583721FA1772001C8C76 /* ReallySimpleNotesData.xcdatamodeld */; };
+		4B7A016821F7041F00854E02 /* ReallySimpleNoteCreateChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7A016721F7041F00854E02 /* ReallySimpleNoteCreateChangeViewController.swift */; };
+		4B85A55221FAD00200933413 /* ReallySimpleNoteDateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B85A55121FAD00200933413 /* ReallySimpleNoteDateHelper.swift */; };
+		4B85A55421FAD4BC00933413 /* ReallySimpleNoteCoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B85A55321FAD4BC00933413 /* ReallySimpleNoteCoreDataHelper.swift */; };
+		4B8B981621F6409C0048122E /* ReallySimpleNoteUITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8B981521F6409C0048122E /* ReallySimpleNoteUITableViewCell.swift */; };
+		4BDBF64221F5B09400616E04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBF64121F5B09400616E04 /* AppDelegate.swift */; };
+		4BDBF64421F5B09400616E04 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBF64321F5B09400616E04 /* MasterViewController.swift */; };
+		4BDBF64621F5B09400616E04 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBF64521F5B09400616E04 /* DetailViewController.swift */; };
+		4BDBF64921F5B09400616E04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BDBF64721F5B09400616E04 /* Main.storyboard */; };
+		4BDBF64B21F5B09600616E04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BDBF64A21F5B09600616E04 /* Assets.xcassets */; };
+		4BDBF64E21F5B09600616E04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BDBF64C21F5B09600616E04 /* LaunchScreen.storyboard */; };
+		4BDBF65621F5B2EE00616E04 /* ReallySimpleNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBF65521F5B2EE00616E04 /* ReallySimpleNote.swift */; };
+		4BDBF65821F5B3A000616E04 /* ReallySimpleNoteStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBF65721F5B3A000616E04 /* ReallySimpleNoteStorage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1FB12327263E41AB00D0AA23 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4B3E583821FA1772001C8C76 /* ReallySimpleNotesData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ReallySimpleNotesData.xcdatamodel; sourceTree = "<group>"; };
+		4B7A016721F7041F00854E02 /* ReallySimpleNoteCreateChangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReallySimpleNoteCreateChangeViewController.swift; sourceTree = "<group>"; };
+		4B85A55121FAD00200933413 /* ReallySimpleNoteDateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReallySimpleNoteDateHelper.swift; sourceTree = "<group>"; };
+		4B85A55321FAD4BC00933413 /* ReallySimpleNoteCoreDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReallySimpleNoteCoreDataHelper.swift; sourceTree = "<group>"; };
+		4B8B981521F6409C0048122E /* ReallySimpleNoteUITableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReallySimpleNoteUITableViewCell.swift; sourceTree = "<group>"; };
+		4BDBF63E21F5B09400616E04 /* CoreDataNoteApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataNoteApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BDBF64121F5B09400616E04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4BDBF64321F5B09400616E04 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		4BDBF64521F5B09400616E04 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		4BDBF64821F5B09400616E04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4BDBF64A21F5B09600616E04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4BDBF64D21F5B09600616E04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4BDBF64F21F5B09600616E04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BDBF65521F5B2EE00616E04 /* ReallySimpleNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReallySimpleNote.swift; sourceTree = "<group>"; };
+		4BDBF65721F5B3A000616E04 /* ReallySimpleNoteStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReallySimpleNoteStorage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BDBF63B21F5B09400616E04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B844FE322043365000F9939 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				4BDBF64721F5B09400616E04 /* Main.storyboard */,
+				4BDBF64A21F5B09600616E04 /* Assets.xcassets */,
+				4BDBF64C21F5B09600616E04 /* LaunchScreen.storyboard */,
+				4B8B981521F6409C0048122E /* ReallySimpleNoteUITableViewCell.swift */,
+				4BDBF64321F5B09400616E04 /* MasterViewController.swift */,
+				4BDBF64521F5B09400616E04 /* DetailViewController.swift */,
+				4B7A016721F7041F00854E02 /* ReallySimpleNoteCreateChangeViewController.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		4B844FE4220433CA000F9939 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4B85A55121FAD00200933413 /* ReallySimpleNoteDateHelper.swift */,
+				4B85A55321FAD4BC00933413 /* ReallySimpleNoteCoreDataHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		4B844FE5220433FA000F9939 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				4BDBF65721F5B3A000616E04 /* ReallySimpleNoteStorage.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		4B844FE622043409000F9939 /* Note */ = {
+			isa = PBXGroup;
+			children = (
+				4BDBF65521F5B2EE00616E04 /* ReallySimpleNote.swift */,
+			);
+			path = Note;
+			sourceTree = "<group>";
+		};
+		4B844FE722043435000F9939 /* CoreDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				4B3E583721FA1772001C8C76 /* ReallySimpleNotesData.xcdatamodeld */,
+			);
+			path = CoreDataModel;
+			sourceTree = "<group>";
+		};
+		4BDBF63521F5B09400616E04 = {
+			isa = PBXGroup;
+			children = (
+				4BDBF64021F5B09400616E04 /* rsnt-really-simple-note-taking-ios */,
+				4BDBF63F21F5B09400616E04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4BDBF63F21F5B09400616E04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BDBF63E21F5B09400616E04 /* CoreDataNoteApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BDBF64021F5B09400616E04 /* rsnt-really-simple-note-taking-ios */ = {
+			isa = PBXGroup;
+			children = (
+				4B844FE722043435000F9939 /* CoreDataModel */,
+				4B844FE622043409000F9939 /* Note */,
+				4B844FE5220433FA000F9939 /* Storage */,
+				4B844FE4220433CA000F9939 /* Helpers */,
+				4B844FE322043365000F9939 /* UI */,
+				4BDBF64121F5B09400616E04 /* AppDelegate.swift */,
+				1FB12327263E41AB00D0AA23 /* SceneDelegate.swift */,
+				4BDBF64F21F5B09600616E04 /* Info.plist */,
+			);
+			path = "rsnt-really-simple-note-taking-ios";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BDBF63D21F5B09400616E04 /* CoreDataNoteApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BDBF65221F5B09600616E04 /* Build configuration list for PBXNativeTarget "CoreDataNoteApp" */;
+			buildPhases = (
+				4BDBF63A21F5B09400616E04 /* Sources */,
+				4BDBF63B21F5B09400616E04 /* Frameworks */,
+				4BDBF63C21F5B09400616E04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreDataNoteApp;
+			productName = "rsnt-really-simple-note-taking-ios";
+			productReference = 4BDBF63E21F5B09400616E04 /* CoreDataNoteApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BDBF63621F5B09400616E04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Németh László Harri";
+				TargetAttributes = {
+					4BDBF63D21F5B09400616E04 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 4BDBF63921F5B09400616E04 /* Build configuration list for PBXProject "CoreDataNoteApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4BDBF63521F5B09400616E04;
+			productRefGroup = 4BDBF63F21F5B09400616E04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BDBF63D21F5B09400616E04 /* CoreDataNoteApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BDBF63C21F5B09400616E04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BDBF64E21F5B09600616E04 /* LaunchScreen.storyboard in Resources */,
+				4BDBF64B21F5B09600616E04 /* Assets.xcassets in Resources */,
+				4BDBF64921F5B09400616E04 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BDBF63A21F5B09400616E04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B3E583921FA1772001C8C76 /* ReallySimpleNotesData.xcdatamodeld in Sources */,
+				4BDBF65621F5B2EE00616E04 /* ReallySimpleNote.swift in Sources */,
+				4B8B981621F6409C0048122E /* ReallySimpleNoteUITableViewCell.swift in Sources */,
+				4BDBF65821F5B3A000616E04 /* ReallySimpleNoteStorage.swift in Sources */,
+				4BDBF64621F5B09400616E04 /* DetailViewController.swift in Sources */,
+				4BDBF64421F5B09400616E04 /* MasterViewController.swift in Sources */,
+				4B7A016821F7041F00854E02 /* ReallySimpleNoteCreateChangeViewController.swift in Sources */,
+				1FB12328263E41AB00D0AA23 /* SceneDelegate.swift in Sources */,
+				4B85A55421FAD4BC00933413 /* ReallySimpleNoteCoreDataHelper.swift in Sources */,
+				4BDBF64221F5B09400616E04 /* AppDelegate.swift in Sources */,
+				4B85A55221FAD00200933413 /* ReallySimpleNoteDateHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4BDBF64721F5B09400616E04 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BDBF64821F5B09400616E04 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4BDBF64C21F5B09600616E04 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BDBF64D21F5B09600616E04 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4BDBF65021F5B09600616E04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4BDBF65121F5B09600616E04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BDBF65321F5B09600616E04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "rsnt-really-simple-note-taking-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iug.note;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4BDBF65421F5B09600616E04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "rsnt-really-simple-note-taking-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iug.note;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BDBF63921F5B09400616E04 /* Build configuration list for PBXProject "CoreDataNoteApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BDBF65021F5B09600616E04 /* Debug */,
+				4BDBF65121F5B09600616E04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BDBF65221F5B09600616E04 /* Build configuration list for PBXNativeTarget "CoreDataNoteApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BDBF65321F5B09600616E04 /* Debug */,
+				4BDBF65421F5B09600616E04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4B3E583721FA1772001C8C76 /* ReallySimpleNotesData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4B3E583821FA1772001C8C76 /* ReallySimpleNotesData.xcdatamodel */,
+			);
+			currentVersion = 4B3E583821FA1772001C8C76 /* ReallySimpleNotesData.xcdatamodel */;
+			path = ReallySimpleNotesData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4BDBF63621F5B09400616E04 /* Project object */;
+}
